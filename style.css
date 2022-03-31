@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .navbar, .navbar-left, .navbar-right {
   display: flex;
@@ -12,10 +13,16 @@ body {
   top: 0%;
   width: 100%;
   margin: 0;
+  padding-bottom: 75px;
+}
+
+.navbar-left, .navbar-right {
+  margin: 0 100px 0 100px;
 }
 
 .nav-link {
-  font-size: 15px;
+  font-size: 18px;
+  color: #636B46;
 }
 
 ul {
@@ -38,5 +45,41 @@ li {
 
 a {
   text-decoration: none;
+}
+
+.hero, .hero-left, .hero-right {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.hero {
+  flex-direction: row;
+  margin: 0;
+  padding-bottom: 100px;
+  background-color: #CDA34F;
+}
+
+.hero-left {
+  flex-direction: column;
+  margin-left: 100px;
+  padding-right: 20px;
+  justify-content: center;
+}
+
+.hero-right {
+  margin-right: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-head {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #E9E7DA;
+}
+
+.hero-text {
+  font-size: 18px;
   color: #636B46;
 }
