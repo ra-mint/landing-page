@@ -22,7 +22,7 @@ body {
 
 .nav-link {
   font-size: 18px;
-  color: #636B46;
+  color: #373F27;
 }
 
 ul {
@@ -58,12 +58,12 @@ a {
   margin: 0;
   padding-bottom: 100px;
   background-color: #CDA34F;
+  gap: 150px;
 }
 
 .hero-left {
   flex-direction: column;
   margin-left: 100px;
-  padding-right: 20px;
   justify-content: center;
 }
 
@@ -81,5 +81,21 @@ a {
 
 .hero-text {
   font-size: 18px;
+  color: #373F27;
+}
+
+.hero-button {
+  background-color: #636B46;
+  border: none;
+  color: #E9E7DA;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.hero-button:hover {
+  background-color: #E9E7DA;
   color: #636B46;
 }
