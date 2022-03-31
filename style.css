@@ -148,3 +148,26 @@ a:hover {
 .mushroom img:hover{
   filter: opacity(50%);
 }
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #373F27;
+  align-content: center;
+  padding: 100px 400px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: row;
+  color: #E9E7DA;
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-end;
+  color: #CDA34F;
+  font-size: 18px;
+}
