@@ -203,6 +203,7 @@ a:hover {
 }
 
 .contactus-container {
+  width: fit-content;
   align-items: center;
   justify-content: space-between;
   background-color: #636B46;
@@ -260,4 +261,21 @@ a:hover {
   padding: 1px;
   margin: 0;
   background-color: #636B46;
+}
+
+.end {
+  display: flex;
+  background-color: #CDA34F;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0 50px 0;
+}
+
+.git {
+  font-size: 18px;
+  color: #373F27;
+}
+
+.footer-link {
+  color: #373F27;
 }
