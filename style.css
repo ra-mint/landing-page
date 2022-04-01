@@ -111,6 +111,11 @@ a:hover {
   color: #636B46;
 }
 
+.hero-photo {
+  max-width: 100%;
+  height: auto;
+}
+
 .products-container, .products {
   display: flex;
   align-items: center;
