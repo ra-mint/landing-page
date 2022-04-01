@@ -69,13 +69,13 @@ a:hover {
   padding: 100px 0 100px 0;
   background-color: #CDA34F;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .hero-left {
   flex-direction: column;
   margin-left: 150px;
   justify-content: center;
-  padding-right: 200px ;
 }
 
 .hero-right {
@@ -88,6 +88,7 @@ a:hover {
   font-size: 48px;
   font-weight: bolder;
   color: #E9E7DA;
+  margin: 0;
 }
 
 .hero-text {
@@ -112,7 +113,7 @@ a:hover {
 }
 
 .hero-photo {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
