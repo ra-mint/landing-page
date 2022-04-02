@@ -1,8 +1,10 @@
-body {
+body, html {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+ 
 .navbar, .navbar-left, .navbar-right {
   display: flex;
   align-items: center;
@@ -228,6 +230,7 @@ a:hover {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin: 0;
 }
 
 .nh-button:hover {
